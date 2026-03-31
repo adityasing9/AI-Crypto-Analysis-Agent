@@ -81,8 +81,8 @@ Backend   → Python
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-crypto-agent.git
-cd ai-crypto-agent
+git clone https://github.com/adityasing9/AI-Crypto-Analysis-Agent.git
+cd AI-Crypto-Analysis-Agent
 pip install -r requirements.txt
 streamlit run app.py
 ```
