@@ -8,6 +8,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+# ✅ DEFINE api_key FIRST
+api_key = st.secrets["OPENROUTER_API_KEY"]
+
+# ✅ THEN create client
 client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
 
 # ---------------- DATA ---------------- #
